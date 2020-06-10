@@ -22,7 +22,7 @@ Git是由Linux之父Linus Tovalds为了更好地管理linux内核开发而创立
 
 ### step1:创建新项目
 我们四个人远程共同写一本书，要有一个笔记本吧？
-![avatar](C:\Users\DELL\Documents\GitHub\-GitHub\github-repositories.png)
+![avatar](Users\DELL\Documents\GitHub\-GitHub\github-repositories.png)
 
 [repositories]就是笔记本们，你只需知道Repository是个放项目的地方就行。有时候会出现Repositories，是多个Repository的意思。
 
