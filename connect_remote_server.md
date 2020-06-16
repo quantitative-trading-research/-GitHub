@@ -3,7 +3,7 @@
 ## step1: install VNC viewer in windows
 [VNC download URL](https://www.realvnc.com/en/connect/download/viewer/)
 
-## step2: connect
+## step2: open VNC and create a connect
 
 ### step2.1: input ip address and port
 file -> New connection -> input IP address
