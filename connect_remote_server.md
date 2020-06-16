@@ -17,3 +17,25 @@ example
 ~~~
 input password
 ~~~
+
+
+# install common softwares
+
+## install anaconda
+step1: download anaconda linux version
+~~~
+https://www.anaconda.com/products/individual
+~~~
+
+step2: install
+open a terminal, find the download path, then install
+~~~
+bash Anaconda3-2020.02-Linux-x86_64.sh
+~~~
+
+## install RAalpha
+see reference, [documents](https://rqalpha.readthedocs.io/zh_CN/latest/intro/install.html)
+~~~
+pip install -i https://pypi.douban.com/simple rqalpha
+~~~
+
