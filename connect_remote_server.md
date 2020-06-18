@@ -1,6 +1,6 @@
 # how to connect remote server easily
 
-目前服务器端的ubuntu版本更新为18.04，且添加了更加易用的访问方式
+目前服务器端的ubuntu版本更新为18.04，,添加了更加易用的访问方式,且解决了分别率低的问题
 
 ## step1: 打开远程桌面连接
 在windows10中直接搜索： 远程桌面连接
