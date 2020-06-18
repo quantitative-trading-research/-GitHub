@@ -10,7 +10,7 @@
 #发给大家
 ~~~
 
-## step3: input ip address and port
+## step3: input username and password
 ~~~
 #私信发给大家
 ~~~
