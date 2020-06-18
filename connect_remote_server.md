@@ -1,23 +1,19 @@
-# how to connect remote server
+# how to connect remote server easily
 
-## step1: install VNC viewer in windows
-[VNC download URL](https://www.realvnc.com/en/connect/download/viewer/)
+目前服务器端的ubuntu版本更新为18.04，且添加了更加易用的访问方式
 
-## step2: open VNC and create a connect
+## step1: 打开远程桌面连接
+在windows10中直接搜索： 远程桌面连接
 
-### step2.1: input ip address and port
-file -> New connection -> input IP address
-
+## step2: 键入IP地址和端口
 ~~~
-example
-218.17.208.1:xxxxx
+#发给大家
 ~~~
 
-### step2.2: input password of VNC
+## step3: input ip address and port
 ~~~
-input password
+#私信发给大家
 ~~~
-
 
 # install common softwares
 
@@ -32,6 +28,7 @@ open a terminal, find the download path, then install
 ~~~
 bash Anaconda3-2020.02-Linux-x86_64.sh
 ~~~
+> to use anaconda command in terminal, you need to add it to environment variable
 
 ## install RAalpha
 see reference, [documents](https://rqalpha.readthedocs.io/zh_CN/latest/intro/install.html)
