@@ -1,13 +1,16 @@
 # how to connect remote server easily
 
-目前服务器端的ubuntu版本更新为18.04，,添加了更加易用的访问方式,且解决了分别率低的问题
+目前服务器端的ubuntu版本更新为18.04，,添加了更加易用的访问方式,且解决了分别率低的问题, 前置条件是要通过vpn登录内网
+
+## step0: 通过EasyConnect vpn登录内网（且访问10.202.33.83的用户权限已通过）
 
 ## step1: 打开远程桌面连接
 在windows10中直接搜索： 远程桌面连接
 
-## step2: 键入IP地址和端口
+## step2: 键入IP地址
 ~~~
-#发给大家
+#add a connection
+键入： 10.202.33.83
 ~~~
 
 ## step3: input username and password
