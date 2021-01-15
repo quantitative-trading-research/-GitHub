@@ -1,0 +1,19 @@
+1. 丽海弘金数据
+
+  ip地址：172.24.15.7172.24.13.43 3306
+  数据库: 恒生聚源，wind，朝阳永续，ukdb09 
+  数据库类型：mysql
+  账号密码：look / lhhj@#$
+  
+  csv level2 数据
+  mount地址：/public/hongking/csv
+  备份地址：/data/share/data/hongking/csv
+  
+  csv barra 数据
+  mount地址：/public/hongking/barra
+  备份地址：/data/share/data/hongking/csv
+
+2. 本地数据库
+  ip地址：10.201.16.1
+  数据库类型：mysql
+  账号密码：attention / attention2020
