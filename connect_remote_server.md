@@ -1,42 +1,51 @@
-# how to connect remote server easily
+# 远程连接服务器快速入门
 
-目前服务器端的ubuntu版本更新为18.04，,添加了更加易用的访问方式,且解决了分别率低的问题, 前置条件是要通过vpn登录内网
-
-## step0: 通过EasyConnect vpn登录内网（且访问10.202.33.83的用户权限已通过）
+# Windows快速连接至服务器
+目前服务器端的ubuntu版本更新为18.04,添加了更加易用的访问方式,且解决了分别率低的问题(目前暂时不支持通过vpn登录内网)。
 
 ## step1: 打开远程桌面连接
-在windows10中直接搜索： 远程桌面连接
+在windows10中直接搜索: 远程桌面连接
 
 ## step2: 键入IP地址
-~~~
-#add a connection
-键入： 10.202.33.83
-~~~
+```txt
+/* add a connection */
+键入: 192.168.1.117
+```
 
-## step3: input username and password
-~~~
-#私信发给大家
-~~~
+## step3: 输入用户名和密码
+```txt
+/* 私信发给大家 */
+```
 
-# install common softwares
+# 安装通用软件
 
-## install anaconda
-step1: download anaconda linux version
-~~~
+## 1 安装 anaconda
+### step1: 下载Linux版本的Anaconda
+
+```txt
+/* offical */
 https://www.anaconda.com/products/individual
-~~~
 
-step2: install
-open a terminal, find the download path, then install
-~~~
-bash Anaconda3-2020.02-Linux-x86_64.sh
-~~~
-> to use anaconda command in terminal, you need to add it to environment variable
+/* tsinghua */
+https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
+```
 
-## install RAalpha
-see reference, [documents](https://rqalpha.readthedocs.io/zh_CN/latest/intro/install.html)
-~~~
-pip install -i https://pypi.douban.com/simple rqalpha
-~~~
+### step2: 安装Anaconda
+打开终端并前往下载目录，找到`Anaconda3-20xx.xx-Linux-x86_64.sh`文件
 
-# turotials
+```bash
+# add execution permission to Anaconda3-20xx.xx-Linux-x86_64.sh
+$ chmod u+x Anaconda3-20xx.xx-Linux-x86_64.sh
+# installation
+# if you don`t want to custome insall enter yes instead
+$ ./Anaconda3-20xx.xx-Linux-x86_64.sh
+```
+
+> 安装Anaconda时已自动将`conda`可执行指令加入了环境变量中，如果在终端中我们无法使用`conda`指令时需要手动添加Anaconda可执行路径至系统环境变量中。
+
+## 2 安装 RAalpha
+更多使用介绍请参考[官方文档](https://rqalpha.readthedocs.io/zh_CN/latest/intro/install.html)
+
+```bash
+$ pip install -i https://pypi.douban.com/simple rqalpha
+```
